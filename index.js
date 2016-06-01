@@ -2,7 +2,7 @@
 
 // Getting started with Facebook Messaging Platform
 // https://developers.facebook.com/docs/messenger-platform/quickstart
-
+require('dotenv').config();
 const express = require('express');
 const request = require('superagent');
 const bodyParser = require('body-parser');
